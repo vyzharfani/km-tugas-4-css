@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram</title>
+    <link rel="icon" type="image/x-icon" href="https://i.imgur.com/xrekzAH.png">
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(0, 153, 255);
+        }
+
+        footer {
+            margin: auto;
+            padding: 15px;
+            text-align: center;
+            color: gray;
+            font-size: small;
+        }
+
+        footer a {
+            color: gray;
+            margin: 10px;
+            text-align: center;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        footer ul {
+            list-style-type: none;
+        }
+
+        footer li {
+            display: inline;
+        }
+
+        .container {
+            margin: auto;
+            padding: 15px;
+            width: 90%;
+            /* CENTER */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* CENTER VERTICALLY */
+            /* position: absolute;
+            top: 50%;
+            transform: translate(0, -50%); */
+        }
+
+        .column {
+            float: left;
+            width: 50%;
+        }
+
+        .bigimg {
+            display: block;
+            margin-left: auto;
+            margin-right: 15px;
+            max-width: 70%;
+        }
+
+        .logo {
+            max-width: 50%;
+            margin: 30px;
+        }
+
+        .fb {
+            width: 13px;
+        }
+
+        .apk {
+            max-width: 100px;
+            margin: 5px;
+        }
+
+        .apk2 {
+            max-width: 120px;
+            margin: 5px;
+        }
+
+        .box {
+            border: 1px solid;
+            border-color: rgb(170, 170, 170);
+            padding: 10px;
+            width: 60%;
+        }
+
+        .box2 {
+            border: none;
+            padding: 10px;
+            width: 60%;
+        }
+
+        .center {
+            text-align: center;
+        }
+
+        .forms {
+            width: 250px;
+            padding: 10px;
+            margin: 5px;
+            background-color: rgb(243, 243, 243);
+        }
+
+        .submit {
+            width: 270px;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 10px;
+            background-color: rgb(49, 179, 255);
+            color: white;
+            border: none;
+        }
+
+        #lg {
+            border: none;
+            color: gray;
+        }
+
+        .hr-sect {
+            display: flex;
+            flex-basis: 100%;
+            align-items: center;
+            color: rgba(0, 0, 0, 0.35);
+            margin: 20px 10px 20px 10px;
+        }
+
+        .hr-sect:before,
+        .hr-sect:after {
+            content: "";
+            flex-grow: 1;
+            background: rgba(0, 0, 0, 0.35);
+            height: 1px;
+            font-size: 0px;
+            line-height: 0px;
+            margin: 0px 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="column">
+            <img class="bigimg" src="https://i.imgur.com/SL8OekD.png">
+        </div>
+
+        <div class="column center">
+            <div class="box">
+                <img class="logo" src="https://i.imgur.com/9iQvh50.png">
+
+                <form>
+                    <input class="forms" type="text" id="name" name="name" value="Phone number, username, or email"><br>
+                    <input class="forms" type="text" id="pass" name="pass" value="Password"><br />
+                    <input class="submit" type="submit" value="Login">
+                </form>
+
+                <div class="hr-sect">OR</div>
+
+                <p></p>
+
+                <b><a href="#" style="color:rgb(3, 56, 156);"><img class="fb" src="https://i.imgur.com/jQfzlWS.png"> Log
+                        in with Facebook</a></b>
+
+                <p></p>
+
+                <small><a href="#">Forgot password?</a></small>
+            </div>
+            <br />
+            <div class="box">
+                <p>Don't have an account? <b><a href="#">Sign up</a></b></p>
+            </div>
+            <div class="box2">
+                <p>Get the app.</p>
+                <a href="#"><img class="apk2" src="https://i.imgur.com/b5I4zeI.png"></a>
+                <a href="#"><img class="apk" src="https://i.imgur.com/VBQh3OS.png"></a>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <ul>
+            <li><a href="#">Meta</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Terms</a></li>
+            <li><a href="#">Top Accounts</a></li>
+            <li><a href="#">Locations</a></li>
+            <li><a href="#">Instagram Lite</a></li>
+            <li><a href="#">Contact Uploading & Non-Users</a></li>
+        </ul>
+        <ul>
+            <li>
+                <select name="lg" id="lg">
+                    <option value="en">English</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="ml">Bahasa Melayu</option>
+                    <option value="jp">日本語</option>
+                </select>
+            </li>
+            <li><a href="#">Meta Verified</a></li>
+            <li>© 2023 Instagram from Meta</li>
+            </li>
+        </ul>
+    </footer>
+
+</body>
+
+</html>
+
+
+</body>
+
+</html>
